@@ -147,16 +147,16 @@ Download and install `Anaconda <https://www.anaconda.com/download/#download>`__ 
 Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
 
 To the group members
-.. code:: shell
-    1. git clone https://github.com/pemtshewang/labelImg.git
 
+1. git clone https://github.com/pemtshewang/labelImg.git
+2. cd labelImg
+3. Execute the commands below
 .. code:: shell
-
     conda install pyqt=5
     conda install -c anaconda lxml
     pyrcc5 -o libs/resources.py resources.qrc
-    python labelImg.py
-    python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+    python labelImg.py # starts the GUI
+4. Please separate the original image and labeled images as mentioned earlier in the gdrive
 
 Use Docker
 ~~~~~~~~~~~~~~~~~
