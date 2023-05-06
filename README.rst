@@ -146,6 +146,10 @@ Download and install `Anaconda <https://www.anaconda.com/download/#download>`__ 
 
 Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
 
+To the group members
+.. code:: shell
+    1. git clone https://github.com/pemtshewang/labelImg.git
+
 .. code:: shell
 
     conda install pyqt=5
